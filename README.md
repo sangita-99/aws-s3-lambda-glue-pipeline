@@ -1,0 +1,2 @@
+This project implements an event-driven serverless ETL pipeline on AWS.
+When a CSV file is uploaded to an S3 source bucket, it triggers an AWS Lambda function. Lambda then starts an AWS Glue job, which reads the CSV, applies a simple transformation, and writes results to an S3 destination bucket.
